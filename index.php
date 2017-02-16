@@ -8,6 +8,7 @@
 
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
+defined('SITE_BASE_TITLE') or define ('SITE_BASE_TITLE', 'GW2 Atlas');
 
 // register Composer autoloader
 require(__DIR__ . '/vendor/autoload.php');

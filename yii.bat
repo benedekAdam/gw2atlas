@@ -14,7 +14,7 @@ rem -------------------------------------------------------------
 set YII_PATH=%~dp0
 
 if "%PHP_COMMAND%" == "" set PHP_COMMAND=php.exe
-
+cd C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php5619vc11x86x170112223335
 "%PHP_COMMAND%" "%YII_PATH%yii" %*
 
 @endlocal
